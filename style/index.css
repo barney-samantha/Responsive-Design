@@ -1,0 +1,28 @@
+
+
+body{ 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	}
+
+
+.nav1{
+
+}
+
+
+
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width 500px) {
+
+}
