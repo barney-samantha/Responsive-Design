@@ -10,8 +10,11 @@ body{
 h1{
 	display: flex;
 	margin-bottom: 5%;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: white;
+	background-color: coral;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 header{
@@ -31,7 +34,6 @@ header{
 	background-color: coral;
 	padding: 10px;
 	border-radius: 20%;
-
 }
 
 .aboutMe{
@@ -45,15 +47,15 @@ header{
 
 .aboutText{
 	display: flex;
-	justify-content: end;
-	margin-left: 5%;
+	justify-content: center;
 	margin-top: 5%;
 	background-color: coral;
 	color: white;
+	padding: 2%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .aboutText img{
-	display: flex;
 	margin-right: 2em;
 }
 
@@ -61,6 +63,16 @@ header{
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 5%;
+	background-color: coral;
+	padding-top: 5%;
+	text-align: center;
+	color: white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.picContainer p{
+	border-style: dotted;
+	padding: 2%;
 }
 
 .row1{
